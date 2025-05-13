@@ -31,13 +31,14 @@ MedIDEFICS (**M**edical **I**mage-aware **D**ecoder **E**nhanced à la **F**lami
 MedIDEFICS a été spécifiquement ajusté pour répondre à des questions médicales liées à des images. Ses capacités incluent la description de contenu visuel (diagnostic), la génération de recommandations, ou encore le fonctionnement en tant que modèle de langage médical, même sans entrée visuelle.
 
 ## Processus de préparation des données
-Le jeu de données a été constitué à partir de **MURA**, **ISIC** et **ROCO**, qui sont des bases de données en accès libre contenant des images médicales.
+Le jeu de données a été constitué à partir de [MURA](https://arxiv.org/abs/1712.06957), [ISIC](https://www.isic-archive.com/) and [ROCO](https://www.semanticscholar.org/paper/Radiology-Objects-in-COntext-(ROCO)%3A-A-Multimodal-Pelka-Koitka/a564fabf130ff6e2742cfba90c7a4018937d764d), qui sont des bases de données en accès libre contenant des images médicales.
 
 Les conversations ont été générées automatiquement à l’aide de Ollama3-2 (GPT-3.5-turbo), en se basant sur les métadonnées associées à chaque image.
 
 Le graphique ci-dessous donne un aperçu du processus de génération des données :
 
 ![Logo](data_prep.png)
+
 ### Model calling
 ![Logo](model_call.png)
 
