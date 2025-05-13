@@ -21,7 +21,7 @@ pip install idefics
 
 ## About the project 
 <p align="center">
-  <img src="MedIDEFICS.png" alt="Logo" width="200" height="200" style="display: block; margin: auto;">
+  <img src="images/MedIDEFICS.png" alt="Logo" width="200" height="200" style="display: block; margin: auto;">
 </p>
 
 **IDEFICS-instruct** résulte d’un entraînement supplémentaire d’IDEFICS sur des ensembles de données d'affinage supervisé et d'affinage via instructions. Cette amélioration permet d’augmenter nettement les performances sur des tâches spécifiques, faisant de idefics-9b-instruct un modèle puissant avec ses 9 milliards de paramètres, tout en améliorant ses capacités conversationnelles.
@@ -37,14 +37,14 @@ Les conversations ont été générées automatiquement à l’aide de Ollama3-2
 
 Le graphique ci-dessous donne un aperçu du processus de génération des données :
 
-![Logo](data_prep.png)
+![Logo](images/data_prep.png)
 
 ### Model calling
-![Logo](model_call.png)
+![Logo](images/model_call.png)
 
 ### Evaluation
-![evaluation](evaluation.png)
+![evaluation](images/evaluation.png)
 
 ### Before and after finetuning comparision
-![results](results.png)
+![results](images/results.png)
 
