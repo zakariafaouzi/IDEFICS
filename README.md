@@ -14,9 +14,12 @@ IDEFICS est une reproduction en libre accès de Flamingo et offre des performanc
 
 ```bash
 pip install idefics
+```
 
 
 ## Auteurs
 
-* [Nicolas Carpentier](
+* [Nicolas Carpentier]
+
+
 
