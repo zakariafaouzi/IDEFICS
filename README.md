@@ -24,10 +24,26 @@ pip install idefics
   <img src="MedIDEFICS.png" alt="Logo" width="200" height="200" style="display: block; margin: auto;">
 </p>
 
+**IDEFICS-instruct** résulte d’un entraînement supplémentaire d’IDEFICS sur des ensembles de données d'affinage supervisé et d'affinage via instructions. Cette amélioration permet d’augmenter nettement les performances sur des tâches spécifiques, faisant de idefics-9b-instruct un modèle puissant avec ses 9 milliards de paramètres, tout en améliorant ses capacités conversationnelles.
 
 MedIDEFICS (**M**edical **I**mage-aware **D**ecoder **E**nhanced à la **F**lamingo with **I**nterleaved **C**ross-attention**S**) est une version fine-tunée du modèle IDEFICS-9b-instruct, lui-même une version optimisée du modèle IDEFICS-9b, adaptée au suivi d’instructions.
 
 MedIDEFICS a été spécifiquement ajusté pour répondre à des questions médicales liées à des images. Ses capacités incluent la description de contenu visuel (diagnostic), la génération de recommandations, ou encore le fonctionnement en tant que modèle de langage médical, même sans entrée visuelle.
 
+## Processus de préparation des données
+Le jeu de données a été constitué à partir de **MURA**, **ISIC** et **ROCO**, qui sont des bases de données en accès libre contenant des images médicales.
 
+Les conversations ont été générées automatiquement à l’aide de Ollama3-2 (GPT-3.5-turbo), en se basant sur les métadonnées associées à chaque image.
+
+Le graphique ci-dessous donne un aperçu du processus de génération des données :
+
+![Logo](data_prep.png)
+### Model calling
+![Logo](model_call.png)
+
+### Evaluation
+![evaluation](evaluation.png)
+
+### Before and after finetuning comparision
+![results](results.png)
 
